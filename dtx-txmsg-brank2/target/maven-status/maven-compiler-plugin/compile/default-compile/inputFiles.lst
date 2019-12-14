@@ -1,0 +1,7 @@
+/Users/Syenging/Documents/material/GitHub/dtx-parent/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/TxMsgBank2Service.java
+/Users/Syenging/Documents/material/GitHub/dtx-parent/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/model/AccountChangeEvent.java
+/Users/Syenging/Documents/material/GitHub/dtx-parent/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/entity/AccountInfo.java
+/Users/Syenging/Documents/material/GitHub/dtx-parent/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/service/AccountInfoService.java
+/Users/Syenging/Documents/material/GitHub/dtx-parent/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/dao/AccountInfoDao.java
+/Users/Syenging/Documents/material/GitHub/dtx-parent/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/message/TxmsgConsumer.java
+/Users/Syenging/Documents/material/GitHub/dtx-parent/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/service/impl/AccountInfoServiceImpl.java

@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28b38f5a-d3ea-41ed-9bf6-93600d009738" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/dtx-txmsg-brank1/target/" />
+    <ignored path="$PROJECT_DIR$/dtx-txmsg-brank2/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1920387939">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="4" />
+          <entry key="http" value="1" />
+          <entry key="java" value="28" />
+          <entry key="properties" value="4" />
+          <entry key="sql" value="2" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="28" />
+          <entry key="Properties" value="4" />
+          <entry key="SQL" value="2" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="http" value="4" />
+          <entry key="java" value="72" />
+          <entry key="xml" value="44" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="72" />
+          <entry key="Scratch" value="4" />
+          <entry key="XML" value="44" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.mvc.usages">
+        <counts>
+          <entry key="RestClientRequestEditorNavigator.fromCode" value="2" />
+          <entry key="RestClientRequestRunnerNavigator.fromCode" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/controller/AccountInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/service/AccountInfoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/service/impl/AccountInfoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/dao/AccountInfoDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="11" column="52" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/message/ProducerTxmsgListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="41" column="54" lean-forward="true" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/message/TxmsgConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/service/AccountInfoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/service/impl/AccountInfoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../MertileProject/Development/engineeringWarehouse-aliyun/org/apache/rocketmq/rocketmq-spring-boot/2.0.2/rocketmq-spring-boot-2.0.2.jar!/org/apache/rocketmq/spring/core/RocketMQLocalTransactionState.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sendUpdateAccountBalance</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../GitHub/grpc-java" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../GitHub/sharding-jdbc-sample" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Youhdx/idea/elastic-rabbitmq" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../idea/github/spring-cloud-alibaba-component" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../tools/spring-framework" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/service/AccountInfoService.java" />
+        <option value="$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/dao/AccountInfoDao.java" />
+        <option value="$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/message/ProducerTxmsgListener.java" />
+        <option value="$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/service/impl/AccountInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dtx-txmsg-brank1/pom.xml" />
+        <option value="$PROJECT_DIR$/dtx-txmsg-brank2/pom.xml" />
+        <option value="$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/dao/AccountInfoDao.java" />
+        <option value="$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/service/AccountInfoService.java" />
+        <option value="$PROJECT_DIR$/dtx-txmsg-brank1/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dtx-txmsg-brank2/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dtx-txmsg-brank2/src/main/resources/application-local.properties" />
+        <option value="$PROJECT_DIR$/dtx-txmsg-brank1/src/main/resources/application-local.properties" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/TxMsgBank1Service.http" />
+        <option value="$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/controller/AccountInfoController.java" />
+        <option value="$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/message/TxmsgConsumer.java" />
+        <option value="$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/service/impl/AccountInfoServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../MertileProject/Maven/apache-maven-anliyun-3.6-1.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dtx-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dtx-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="828" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="txmsg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="txmsg" type="462c0819:PsiDirectoryNode" />
+              <item name="bank1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="txmsg" type="462c0819:PsiDirectoryNode" />
+              <item name="bank1" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="txmsg" type="462c0819:PsiDirectoryNode" />
+              <item name="bank1" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="txmsg" type="462c0819:PsiDirectoryNode" />
+              <item name="bank1" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="txmsg" type="462c0819:PsiDirectoryNode" />
+              <item name="bank1" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="txmsg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="txmsg" type="462c0819:PsiDirectoryNode" />
+              <item name="bank2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="txmsg" type="462c0819:PsiDirectoryNode" />
+              <item name="bank2" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="txmsg" type="462c0819:PsiDirectoryNode" />
+              <item name="bank2" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="txmsg" type="462c0819:PsiDirectoryNode" />
+              <item name="bank2" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-txmsg-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/dtx-txmsg-brank2/src/main/resources" />
+      <recent name="$PROJECT_DIR$/dtx-txmsg-brank1/src/main/resources" />
+      <recent name="$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2" />
+      <recent name="$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TxMsgBank2Service">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="dtx-parent" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="dtx-parent" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TxMsgBank1Service" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dtx-txmsg-brank1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dtx.txmsg.bank1.TxMsgBank1Service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TxMsgBank2Service" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dtx-txmsg-brank2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dtx.txmsg.bank2.TxMsgBank2Service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="lua.app" factoryName="Lua Application">
+      <option name="program" value="/usr/local/bin/lua" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/src/main/java" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.TxMsgBank1Service" />
+      <item itemvalue="Spring Boot.TxMsgBank2Service" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28b38f5a-d3ea-41ed-9bf6-93600d009738" name="Default Changelist" comment="" />
+      <created>1576314925092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576314925092</updated>
+      <workItem from="1576314929012" duration="121000" />
+      <workItem from="1576315058333" duration="40000" />
+      <workItem from="1576315104001" duration="4226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4387000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="828" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26323318" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32880434" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39673913" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.44293478" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.27173913" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32982457" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" show_stripe_button="false" weight="0.24129032" />
+      <window_info anchor="bottom" id="LuaCheck" order="16" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.36141303" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.29041487" />
+      <window_info anchor="right" id="Database" order="5" weight="0.16570328" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/controller/AccountInfoController.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/service/impl/AccountInfoServiceImpl.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/service/impl/AccountInfoServiceImpl.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/service/impl/AccountInfoServiceImpl.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/message/ProducerTxmsgListener.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/message/ProducerTxmsgListener.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/message/TxmsgConsumer.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/entity/AccountInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="91" column="25" selection-start-line="87" selection-start-column="10" selection-end-line="91" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="64" column="21" selection-start-line="61" selection-start-column="6" selection-end-line="64" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/dao/AccountInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/entity/AccountInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/model/AccountChangeEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/bank1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="36" lean-forward="true" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/bank2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="109" column="35" lean-forward="true" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/resources/application-local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/resources/application-local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/TxMsgBank1Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/TxMsgBank2Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/TxMsgBank1Service.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../MertileProject/Development/engineeringWarehouse-aliyun/org/apache/rocketmq/rocketmq-spring-boot/2.0.2/rocketmq-spring-boot-2.0.2.jar!/org/apache/rocketmq/spring/core/RocketMQTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="86" column="69" selection-start-line="86" selection-start-column="69" selection-end-line="86" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/model/AccountChangeEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../MertileProject/Development/engineeringWarehouse-aliyun/org/apache/rocketmq/rocketmq-spring-boot/2.0.2/rocketmq-spring-boot-2.0.2.jar!/org/apache/rocketmq/spring/core/RocketMQLocalTransactionState.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/service/AccountInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/dao/AccountInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/service/impl/AccountInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/message/ProducerTxmsgListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="41" column="54" lean-forward="true" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../MertileProject/Development/engineeringWarehouse-aliyun/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="33" column="110" selection-start-line="33" selection-start-column="110" selection-end-line="33" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/controller/AccountInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/message/TxmsgConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/service/AccountInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/service/impl/AccountInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
