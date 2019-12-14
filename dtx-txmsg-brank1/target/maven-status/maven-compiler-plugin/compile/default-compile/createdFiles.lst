@@ -1,8 +1,0 @@
-com/dtx/txmsg/bank1/message/ProducerTxmsgListener.class
-com/dtx/txmsg/bank1/dao/AccountInfoDao.class
-com/dtx/txmsg/bank1/model/AccountChangeEvent.class
-com/dtx/txmsg/bank1/entity/AccountInfo.class
-com/dtx/txmsg/bank1/service/impl/AccountInfoServiceImpl.class
-com/dtx/txmsg/bank1/service/AccountInfoService.class
-com/dtx/txmsg/bank1/TxMsgBank1Service.class
-com/dtx/txmsg/bank1/controller/AccountInfoController.class

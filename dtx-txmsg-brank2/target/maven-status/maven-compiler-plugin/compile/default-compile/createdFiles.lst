@@ -1,7 +1,0 @@
-com/dtx/txmsg/bank2/model/AccountChangeEvent.class
-com/dtx/txmsg/bank2/message/TxmsgConsumer.class
-com/dtx/txmsg/bank2/service/impl/AccountInfoServiceImpl.class
-com/dtx/txmsg/bank2/dao/AccountInfoDao.class
-com/dtx/txmsg/bank2/service/AccountInfoService.class
-com/dtx/txmsg/bank2/TxMsgBank2Service.class
-com/dtx/txmsg/bank2/entity/AccountInfo.class
