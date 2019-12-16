@@ -1,3 +1,19 @@
+GET http://127.0.0.1:56081/seata-brank-one-server/{GET%20/transfer/{amount}/{accountNo}}
+
+###
+
+GET http://127.0.0.1:56081/seata-brank-one-server/{GET%20/transfer/{amount}/{accountNo}}
+
+###
+
+GET http://127.0.0.1:56082/seata-brank-two-server/{GET%20/transfer/{amount}/{accountNo}}
+
+###
+
+GET http://127.0.0.1:56081/dtx-seata-brank1/{GET%20/transfer}
+
+###
+
 GET http://127.0.0.1:56081/bank1/{GET%20/transfer/{accountNo}/{amount}}
 
 ###

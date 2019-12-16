@@ -2,13 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28b38f5a-d3ea-41ed-9bf6-93600d009738" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/SeataBrank1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/config/DatabaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/config/FeignEnvironment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/controller/Bank1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/dao/AccountInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/entity/AccountInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/service/AccountInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/service/impl/AccountInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/spring/Bank2Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/spring/Bank2ClientFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank1/src/main/resources/application-local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank1/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank1/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank1/src/main/resources/registry.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/SeataBrank2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/config/DatabaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/controller/Bank2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/dao/AccountInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/entity/AccountInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/service/AccountInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/service/impl/AccountInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank2/src/main/resources/application-local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank2/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dtx-seata-brank2/src/main/resources/registry.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/dtx-txmsg-brank1/target/" />
     <ignored path="$PROJECT_DIR$/dtx-txmsg-brank2/target/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <ignored path="$PROJECT_DIR$/dtx-seata-brank1/target/" />
+    <ignored path="$PROJECT_DIR$/dtx-seata-brank2/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,56 +53,63 @@
     <session id="-1920387939">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="4" />
+          <entry key="class" value="8" />
+          <entry key="conf" value="9" />
           <entry key="gitignore" value="1" />
           <entry key="http" value="1" />
-          <entry key="java" value="29" />
-          <entry key="md" value="1" />
-          <entry key="properties" value="4" />
+          <entry key="java" value="79" />
+          <entry key="md" value="2" />
+          <entry key="properties" value="34" />
           <entry key="sql" value="2" />
-          <entry key="xml" value="2" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="29" />
-          <entry key="Markdown" value="1" />
+          <entry key="CLASS" value="8" />
+          <entry key="HOCON" value="9" />
+          <entry key="JAVA" value="79" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="4" />
+          <entry key="Properties" value="34" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="2" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="conf" value="22" />
           <entry key="http" value="4" />
-          <entry key="java" value="73" />
-          <entry key="md" value="26" />
-          <entry key="xml" value="44" />
+          <entry key="java" value="530" />
+          <entry key="md" value="172" />
+          <entry key="properties" value="182" />
+          <entry key="xml" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="73" />
-          <entry key="Markdown" value="26" />
+          <entry key="HOCON" value="22" />
+          <entry key="JAVA" value="531" />
+          <entry key="Markdown" value="171" />
+          <entry key="Properties" value="182" />
           <entry key="Scratch" value="4" />
-          <entry key="XML" value="44" />
+          <entry key="XML" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages">
         <counts>
           <entry key="RestClientRequestEditorNavigator.fromCode" value="2" />
-          <entry key="RestClientRequestRunnerNavigator.fromCode" value="2" />
+          <entry key="RestClientRequestRunnerNavigator.fromCode" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -76,10 +117,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/controller/AccountInfoController.java">
+        <entry file="file://$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/controller/Bank2Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="373">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,10 +129,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/service/impl/AccountInfoServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/service/AccountInfoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="225">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/service/impl/AccountInfoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,98 +150,104 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/dao/AccountInfoDao.java">
+        <entry file="file://$PROJECT_DIR$/dtx-seata-brank1/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="11" column="52" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/message/ProducerTxmsgListener.java">
+        <entry file="file://$PROJECT_DIR$/dtx-seata-brank1/src/main/resources/application-local.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="21" column="95" lean-forward="true" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/message/TxmsgConsumer.java">
+        <entry file="file://$PROJECT_DIR$/dtx-seata-brank2/src/main/resources/application-local.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/service/AccountInfoService.java">
+        <entry file="file://$PROJECT_DIR$/dtx-seata-brank2/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            <state relative-caret-position="45">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/service/impl/AccountInfoServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/dao/AccountInfoDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="138" column="6" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <first_editor relative-caret-position="165">
+                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/dao/AccountInfoDao.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/service/impl/AccountInfoServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="373">
+              <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sendUpdateAccountBalance</find>
+      <find>dtx-seata-brank2</find>
+      <find>/bank2/transfer{amount}/{accountNo}</find>
+      <find>seata-demo-bank2</find>
+      <find>brank1</find>
+      <find>feign</find>
+      <find>feign client request amount</find>
+      <find>web</find>
+      <find>seata-brank-two-server</find>
+      <find>transfer</find>
+      <find>bank2</find>
+      <find>bank2 service begin,XID</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -214,7 +270,6 @@
         <option value="$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/dao/AccountInfoDao.java" />
         <option value="$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/message/ProducerTxmsgListener.java" />
         <option value="$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/service/impl/AccountInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dtx-txmsg-brank1/pom.xml" />
         <option value="$PROJECT_DIR$/dtx-txmsg-brank2/pom.xml" />
         <option value="$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/dao/AccountInfoDao.java" />
@@ -228,6 +283,30 @@
         <option value="$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/message/TxmsgConsumer.java" />
         <option value="$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/service/impl/AccountInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank2/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank1/pom.xml" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/config/DatabaseConfiguration.java" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/SeataBrank1Application.java" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank1/src/main/resources/file.conf" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/dao/AccountInfoDao.java" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/service/AccountInfoService.java" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/SeataBrank2Application.java" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/service/AccountInfoService.java" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/dao/AccountInfoDao.java" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank2/src/main/resources/file.conf" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank2/src/main/resources/application-local.properties" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/config/DatabaseConfiguration.java" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/spring/Bank2ClientFallback.java" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank2/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/service/impl/AccountInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/config/FeignEnvironment.java" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/controller/Bank1Controller.java" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/spring/Bank2Client.java" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/controller/Bank2Controller.java" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank1/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/service/impl/AccountInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dtx-seata-brank1/src/main/resources/application-local.properties" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -251,11 +330,20 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dtx-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="dtx-seata-brank1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dtx-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="dtx-seata-brank1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dtx-seata-brank2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dtx-seata-brank2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -263,9 +351,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1920" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="828" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -273,14 +362,256 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yhdx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yhdx" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yhdx" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="seata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yhdx" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="seata" type="462c0819:PsiDirectoryNode" />
+              <item name="brank1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yhdx" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="seata" type="462c0819:PsiDirectoryNode" />
+              <item name="brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yhdx" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="seata" type="462c0819:PsiDirectoryNode" />
+              <item name="brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yhdx" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="seata" type="462c0819:PsiDirectoryNode" />
+              <item name="brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yhdx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yhdx" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yhdx" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="seata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yhdx" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="seata" type="462c0819:PsiDirectoryNode" />
+              <item name="brank2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yhdx" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="seata" type="462c0819:PsiDirectoryNode" />
+              <item name="brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtx-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtx-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx-seata-brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yhdx" type="462c0819:PsiDirectoryNode" />
+              <item name="dtx" type="462c0819:PsiDirectoryNode" />
+              <item name="seata" type="462c0819:PsiDirectoryNode" />
+              <item name="brank2" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -305,12 +636,16 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yhdx.dtx.seata.brank1.config" />
+      <recent name="com.yhdx.dtx.seata.brank2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2" />
+      <recent name="$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1" />
+      <recent name="$PROJECT_DIR$/dtx-seata-brank2/src/main/resources" />
+      <recent name="$PROJECT_DIR$/dtx-seata-brank1/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/dtx-txmsg-brank2/src/main/resources" />
-      <recent name="$PROJECT_DIR$/dtx-txmsg-brank1/src/main/resources" />
-      <recent name="$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2" />
-      <recent name="$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -325,7 +660,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TxMsgBank2Service">
+  <component name="RunManager" selected="Spring Boot.SeataBrank2Application">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="dtx-parent" />
       <working_directory value="$PROJECT_DIR$" />
@@ -344,6 +679,32 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
+    </configuration>
+    <configuration name="SeataBrank1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dtx-seata-brank1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yhdx.dtx.seata.brank1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhdx.dtx.seata.brank1.SeataBrank1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataBrank2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dtx-seata-brank2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yhdx.dtx.seata.brank2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhdx.dtx.seata.brank2.SeataBrank2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TxMsgBank1Service" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="dtx-txmsg-brank1" />
@@ -372,7 +733,15 @@
     <list>
       <item itemvalue="Spring Boot.TxMsgBank1Service" />
       <item itemvalue="Spring Boot.TxMsgBank2Service" />
+      <item itemvalue="Spring Boot.SeataBrank1Application" />
+      <item itemvalue="Spring Boot.SeataBrank2Application" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SeataBrank2Application" />
+        <item itemvalue="Spring Boot.SeataBrank1Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -386,17 +755,51 @@
       <updated>1576314925092</updated>
       <workItem from="1576314929012" duration="121000" />
       <workItem from="1576315058333" duration="40000" />
-      <workItem from="1576315104001" duration="4592000" />
+      <workItem from="1576315104001" duration="4793000" />
+      <workItem from="1576410137915" duration="11218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4753000" />
+    <option name="totallyTimeSpent" value="16172000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="828" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1920" y="23" width="1920" height="1057" extended-state="6" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20181043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32880434" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5222798" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.34611398" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21554404" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32982457" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.24129032" />
+      <window_info anchor="bottom" id="LuaCheck" order="16" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.36062175" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" visible="true" weight="0.21086262" />
+      <window_info anchor="right" id="Database" order="5" weight="0.16570328" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26323318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
@@ -425,11 +828,11 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" visible="true" weight="0.29041487" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.29041487" />
       <window_info anchor="right" id="Database" order="5" weight="0.16570328" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Bean Validation" order="7" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -482,91 +885,156 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/controller/Bank1Controller.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/controller/Bank2Controller.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/service/impl/AccountInfoServiceImpl.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/service/impl/AccountInfoServiceImpl.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>bank2Client</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/entity/AccountInfo.java">
+    <entry file="jar://$PROJECT_DIR$/../../../MertileProject/Development/engineeringWarehouse-aliyun/org/apache/rocketmq/rocketmq-spring-boot/2.0.2/rocketmq-spring-boot-2.0.2.jar!/org/apache/rocketmq/spring/core/RocketMQLocalTransactionState.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/service/AccountInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../MertileProject/Development/engineeringWarehouse-aliyun/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="33" column="110" selection-start-line="33" selection-start-column="110" selection-end-line="33" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/controller/AccountInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/service/impl/AccountInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/dao/AccountInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/message/ProducerTxmsgListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/message/TxmsgConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/service/AccountInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/service/impl/AccountInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="138" column="6" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/dao/AccountInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../MertileProject/Development/engineeringWarehouse-aliyun/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar!/org/springframework/boot/autoconfigure/web/ServerProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="305" column="20" selection-start-line="305" selection-start-column="20" selection-end-line="305" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="91" column="25" selection-start-line="87" selection-start-column="10" selection-end-line="91" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="64" column="21" selection-start-line="61" selection-start-column="6" selection-end-line="64" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/entity/AccountInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/model/AccountChangeEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/bank1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="36" lean-forward="true" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/bank2.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="109" column="35" lean-forward="true" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/resources/application-local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/resources/application-local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -588,136 +1056,270 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/TxMsgBank1Service.http">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../MertileProject/Development/engineeringWarehouse-aliyun/org/apache/rocketmq/rocketmq-spring-boot/2.0.2/rocketmq-spring-boot-2.0.2.jar!/org/apache/rocketmq/spring/core/RocketMQTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="86" column="69" selection-start-line="86" selection-start-column="69" selection-end-line="86" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/model/AccountChangeEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../MertileProject/Development/engineeringWarehouse-aliyun/org/apache/rocketmq/rocketmq-spring-boot/2.0.2/rocketmq-spring-boot-2.0.2.jar!/org/apache/rocketmq/spring/core/RocketMQLocalTransactionState.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/service/AccountInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/dao/AccountInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/service/impl/AccountInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../MertileProject/Development/engineeringWarehouse-aliyun/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="33" column="110" selection-start-line="33" selection-start-column="110" selection-end-line="33" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/controller/AccountInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/java/com/dtx/txmsg/bank1/message/ProducerTxmsgListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/message/TxmsgConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/service/AccountInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/dao/AccountInfoDao.java">
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/config/DatabaseConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank2/src/main/java/com/dtx/txmsg/bank2/service/impl/AccountInfoServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/dao/AccountInfoDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        <state relative-caret-position="180">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/entity/AccountInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-txmsg-brank1/src/main/resources/application-local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank2/src/main/resources/registry.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/SeataBrank1Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank1/src/main/resources/registry.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank1/src/main/resources/file.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="138" column="6" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="6" />
+        <state relative-caret-position="-1280">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/SeataBrank2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/config/DatabaseConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/entity/AccountInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/spring/Bank2ClientFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../MertileProject/Development/engineeringWarehouse-aliyun/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/bind/annotation/PathVariable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../MertileProject/Development/engineeringWarehouse-aliyun/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/bind/annotation/PathVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="55" lean-forward="true" selection-start-line="54" selection-start-column="57" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/config/FeignEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank2/src/main/resources/file.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../MertileProject/Development/engineeringWarehouse-aliyun/io/github/openfeign/feign-hystrix/10.1.0/feign-hystrix-10.1.0-sources.jar!/feign/hystrix/HystrixInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
+          <folding>
+            <element signature="e#4051#4059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/spring/Bank2Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="171" selection-start-line="11" selection-start-column="171" selection-end-line="11" selection-end-column="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../MertileProject/Development/engineeringWarehouse-aliyun/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/controller/Bank1Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/service/AccountInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/dao/AccountInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank2/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank2/src/main/resources/application-local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/service/AccountInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank1/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank1/src/main/resources/application-local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="95" lean-forward="true" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <first_editor relative-caret-position="165">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/controller/Bank2Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank2/src/main/java/com/yhdx/dtx/seata/brank2/service/impl/AccountInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtx-seata-brank1/src/main/java/com/yhdx/dtx/seata/brank1/service/impl/AccountInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
