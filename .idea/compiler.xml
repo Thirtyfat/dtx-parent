@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dtx-seata-brank1" />
         <module name="dtx-seata-brank2" />
+        <module name="dtx-tcc-brank1" />
+        <module name="dtx-tcc-brank2" />
         <module name="dtx-txmsg-brank1" />
         <module name="dtx-txmsg-brank2" />
       </profile>
